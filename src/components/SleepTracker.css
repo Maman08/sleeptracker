@@ -1,0 +1,60 @@
+
+
+#myChart {
+    background-color: white;
+    border-radius: 10px;
+   
+
+
+  }
+  #start {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #2a75d2;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px  50px  rgb(69, 69, 255);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  #stop {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #2a75d2;
+    outline: none;
+    border: none;
+    color: white;
+    box-shadow: 1px 1px  50px  rgb(69, 69, 255);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease, color 0.3s ease;
+  }
+  
+  #start:hover {
+    background-color: #0c487f;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 16px rgba(248, 247, 247, 0.945);
+  }
+  
+  #stop:hover {
+    background-color: #0c487f;
+    color: #f8f8f8;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 16px rgba(248, 247, 247, 0.945);
+}
+#displayTime{
+    text-shadow: 1px 1px rgb(124, 160, 227);
+    font-size: 25px;
+}  
+#yourRec{
+    text-shadow: 2px 2px rgb(124, 160, 227);
+
+}
+#secrvices{
+    text-shadow: 2px 2px rgb(124, 160, 227);
+
+}
+#myChart{
+   background-color: #22204090;
+   padding: 10px;
+}

@@ -1,0 +1,76 @@
+.contactbg{
+    border-right: solid 60px rgb(79, 85, 255);
+    width: 100%;
+    border-radius: 0 0 530px 0;
+    
+}
+.a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(133, 123, 123);
+    font-weight: 520;
+}
+.a:hover{
+    text-decoration: underline;
+    transform: scale(1.03);
+}
+.card{
+    background-color: white;
+}
+.contactimg{
+    transform: translateY(-40px);
+    background: white;
+    
+    padding: 10px;
+    border-radius: 50%;
+    border-top:15px solid rgb(6, 6, 6);
+margin-top: -17px;
+}
+.contactimg img{
+    height: 50px;
+    width: 50px;
+    
+}
+.col{
+    border:15px solid rgb(6, 6, 6);
+}
+.contactCard{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(14,68,89,1) 0%, rgba(5,111,188,1) 0%, rgba(12,66,106,1) 0%, rgba(233,9,21,1) 0%, rgba(115,102,134,1) 0%, rgba(104,111,144,1) 0%, rgba(28,42,73,1) 0%, rgba(25,49,94,1) 13%, rgba(22,58,119,1) 26%, rgba(14,79,177,1) 40%, rgba(10,87,193,1) 54%, rgba(9,89,198,1) 76%, rgba(4,97,217,1) 92%, rgba(0,106,236,1) 100%, rgba(191,192,15,1) 100%, rgba(1,192,242,0.8436624649859944) 100%, rgba(9,192,232,1) 100%, rgba(204,192,0,1) 100%, rgba(72,138,177,1) 100%, rgba(241,11,24,1) 100%, rgba(102,23,26,1) 100%, rgba(216,20,20,1) 100%, rgba(13,70,111,1) 100%, rgba(25,119,169,1) 100%, rgba(78,141,119,1) 100%);color: white;
+}
+h3{
+    font-family: sans-serif;
+    color: white;
+}
+.uprpara{
+    color: white;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 35px;
+}
+p{
+    font-size: 18px;
+}
+
+.contactush{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    animation: glow-animation 1s infinite alternate;
+  }
+  
+  @keyframes glow-animation {
+    0% {
+        text-shadow: 0 0 5px #011004, 0 0 5px #00b3ff, 0 0 15px #ff00ea, 0 0 20px #0000ff;
+    }
+  
+    50% {
+        text-shadow: 0 0 10px #0a1202, 0 0 10px #00eeff, 0 0 30px #ff00f7, 0 0 40px #2600ff;
+    }
+  
+    100% {
+        text-shadow: 0 0 5px #55ff00, 0 0 5px #0095ff, 0 0 15px #ff00ff, 0 0 20px #0d00ff;
+    }
+  }
