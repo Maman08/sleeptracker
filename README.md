@@ -33,3 +33,6 @@ Make sure you have the following installed:
 5. Open your browser and navigate to:
    ```bash
    http://localhost:3000
+
+   ![image](https://github.com/user-attachments/assets/6000ef60-121d-4f5f-800c-16c83aab6d70)
+
